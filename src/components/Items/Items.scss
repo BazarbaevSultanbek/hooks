@@ -1,0 +1,13 @@
+.Items-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto',sans-serif;
+}
+.Items-block-inner{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}

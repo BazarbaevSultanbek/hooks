@@ -1,0 +1,31 @@
+.Click-logo {
+    h3 {
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Cambria', sans-serif;
+        padding: 0 0 15px 0;
+        margin: 0;
+    }
+}
+
+.Click-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+    button{
+        font-size: 18px;
+        color: white;
+        background-color: rgb(71, 71, 255);
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+        font-family: 'Calibri',sans-serif;
+    }
+    p{
+        font-size: 18px;
+        font-family: 'Arial',sans-serif;        
+    }
+}

@@ -1,0 +1,34 @@
+.Counter-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    button:nth-child(1) {
+        background-color: blue;
+        width: 150px;
+        height: 40px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+    }
+
+    button:nth-child(3) {
+        background-color: red;
+        width: 150px;
+        height: 40px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+}

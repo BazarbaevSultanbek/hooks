@@ -1,0 +1,47 @@
+.LocalCounter-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.LocalCounter-block-inner {
+    background: rgb(65, 19, 65);
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+
+    h1 {
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+        color: yellow;
+        font-size: 95px;
+    }
+
+    div:nth-child(2) {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        padding: 40px 0 10px 0;
+        gap: 10px;
+    }
+
+    button {
+        background-color: blue;
+        color: white;
+        font-family: 'Arial', sans-serif;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+        color: white;
+        font-family: 'Arial', sans-serif;
+        text-align: center;
+        padding-top: 30px;
+    }
+}
